@@ -8,28 +8,10 @@ theme: slidev-theme-cursor
 layout: cover
 ---
 
-<div class="flex flex-col items-center gap-6">
-  <h2 class="text-3xl font-bold mb-4">Access the Slides</h2>
-  <img src="./assets/slides_qr.png" alt="Cursor Logo" class="mx-auto w-48 h-48" />
-  <a href="https://colesmcintosh.github.io/cursor-slidev/" class="text-xl hover:underline text-blue-400">colesmcintosh.github.io/cursor-slidev</a>
+<div class="flex flex-col items-center justify-center h-full space-y-4 mb-36">
+  <img src="./assets/denver_logo.png" alt="Cursor Denver" class="w-70 rounded-lg shadow-lg" />
+  <p class="text-2xl md:text-4xl font-bold tracking-tight text-white">Welcome to The Denver Cursor meet up!</p>
 </div>
-
----
-
-<GlowBackground>
-  <div class="flex flex-col items-center justify-center h-full space-y-6">
-    <h1 class="text-6xl md:text-8xl font-bold tracking-tight text-white">Cursor Denver</h1>
-    <p class="text-2xl opacity-80">AI-Powered Development Meetup</p>
-  </div>
-</GlowBackground>
-
----
-
-# Community Map
-
-<a href="https://lu.ma/cursorcommunity/map" target="_blank">
-  <img src="./assets/map.png" alt="Community Map" class="mx-auto my-auto rounded-lg shadow-lg" />
-</a>
 
 ---
 
@@ -37,8 +19,8 @@ layout: cover
 
 <div class="text-left space-y-4">
 
-- **Cole McIntosh** – Host & Cursor Community Leader
-- **Thanks to Bambei Brewing** for hosting us in Superior, Colorado  
+- **Cole McIntosh** – Host & Cursor Ambassador
+- **Thanks to Bambei Brewing** for hosting us! 🍻 
 - **Event**: [lu.ma/ivrgld91](https://lu.ma/ivrgld91)
 
 </div>
@@ -51,7 +33,7 @@ layout: cover
 
 1. **Welcome & Introductions**
 2. **Hands-on Cursor Essentials** – Everyday workflows  
-3. **MCP Demo** – How MCP supercharges productivity  
+3. **What is MCP?** – How MCP supercharges productivity  
 4. **Building in the Future** – Quick demo with Cursor  
 5. **Networking & Community**
 
@@ -59,186 +41,170 @@ layout: cover
 
 ---
 
-# What We'll Cover
+# What is Cursor?
 
-<div class="grid grid-cols-2 gap-8 text-left">
-
-<div>
-
-### **Cursor Essentials**
-Learn hands-on workflows in a relaxed setting
-
-### **MCP Protocol**
-Discover how it boosts your productivity
-
-</div>
-
-<div>
-
-### **Tips & Tricks**
-Get the most out of Cursor
-
-### **Future Building**
-See how to build tomorrow's apps today
-
-</div>
-
-</div>
-
----
-
-# Location
-
-<div class="text-center space-y-6">
-
-## **Bambei Brewing**
-
-**Address:**  
-100 Superior Plaza Way Suite 102  
-Superior, CO 80027  
-
-<div class="text-lg opacity-80 mt-6">
-A relaxed brewery setting perfect for learning and networking!
-</div>
-
-</div>
-
----
-
-# Getting Started with Cursor
-
-<div class="grid grid-cols-2 gap-6 text-left">
-
-<div class="space-y-4">
-
-- **AI-powered code editor**
-- **Intelligent completions**
-- **Natural language to code**
-
-</div>
-
-<div class="space-y-4">
-
-- **Multi-file editing**
-- **Chat with your codebase**
-
-</div>
-
-</div>
-
----
-
-# WTF is MCP?
-
-<div class="text-center space-y-8">
-
-## **MCP stands for Model Context Protocol**
-
-<div class="text-xl opacity-80 mt-8">
-What is it actually?
-</div>
-
-<div class="text-3xl font-bold text-blue-400 mt-6">
-A gateway for AI to interact with the real world.
-</div>
-
-</div>
-
----
-
-# MCP: Model Context Protocol
-
-<div class="grid grid-cols-2 gap-6 text-left">
-
-<div class="space-y-4">
-
-- **Connect to external data sources**
-- **Real-time context enhancement**
-
-</div>
-
-<div class="space-y-4">
-
-- **Supercharge development workflow**
-- **GitHub, databases, APIs, and more**
-
-</div>
-
-</div>
-
----
-
-# Integration Examples
-
-<div class="grid grid-cols-2 gap-8 text-left">
-
-<div class="space-y-4">
-
-### **Data Sources**
-- GitHub PRs & Issues
-- REST / GraphQL APIs
-- SQL / Vector Databases
-
-</div>
-
-<div class="space-y-4">
-
-### **Monitoring**
-- Monitoring dashboards
-- Log analysis
-- Project management tools
-
-</div>
-
-</div>
-
-<div class="text-center mt-8 text-lg opacity-80">
-Each becomes extra context your AI can act on
-</div>
-
----
-
-# Benefits of External Interaction
-
-<div class="grid grid-cols-2 gap-8 text-left text-xl">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left mt-8">
 
 <div class="space-y-6">
 
-### 1. **Reduce context switching**
-### 2. **Eliminate stale assumptions**
+**Smart AI Assistant**  
+Suggests fixes and improvements as you type
+
+**Plain English Coding**  
+Describe what you want and Cursor writes it for you
+
+**Project-Wide Intelligence**  
+Understanding of your entire codebase
 
 </div>
 
 <div class="space-y-6">
 
-### 3. **Automate end-to-end tasks**
-### 4. **Ship features faster with higher confidence**
+**Automates Boring Stuff**  
+Refactors, adds tests, and updates docs in seconds
+
+**Chat with Your Code**  
+Ask "What does this function do?" and get instant answers
+
+**Ship Faster**  
+Focus on ideas, not syntax and boilerplate
 
 </div>
 
+</div>
+
+---
+
+# What is MCP?
+
+<div class="text-center mb-8">
+  <h2 class="text-xl opacity-70">MCP = Model Context Protocol</h2>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left mt-8">
+
+<div class="space-y-6">
+
+**Pull Live Data**  
+Get real-time info from GitHub PRs, Slack messages, or your database
+
+**Smart Context**  
+AI knows what's happening right now, not just your code
+
+</div>
+
+<div class="space-y-6">
+
+**Take Actions**  
+Create tickets, deploy code, update documentation automatically
+
+**Stay in Flow**  
+No more switching between 10 different tools and tabs
+
+</div>
+
+</div>
+
+---
+
+# How MCP Works
+
+<div class="flex flex-col items-center justify-center">
+
+<div class="w-full max-w-2xl ml-10">
+
+```mermaid
+graph TD
+    A[Cursor] -->|MCP Protocol| B[MCP Server A]
+    A -->|MCP Protocol| C[MCP Server B]
+    A -->|MCP Protocol| D[MCP Server C]
+
+    B -->|Local Data| E[Local Data Source]
+    C -->|Local Data| E
+    D -->|Remote API| F[Internet Service]
+
+style A fill:#38383a,stroke:#ccc,color:#fff
+style B fill:#D3C4F3,stroke:#555,color:#000
+style C fill:#D3C4F3,stroke:#555,color:#000
+style D fill:#D3C4F3,stroke:#555,color:#000
+style E fill:#FFC97A,stroke:#555,color:#000
+style F fill:#F77E7E,stroke:#555,color:#fff
+linkStyle 0,1,2,3,4,5 stroke:#fff,stroke-width:2px
+```
+
+</div>
+
+</div>
+
+---
+
+# Real-World MCP Examples
+
+<div class="flex flex-col items-center justify-center mt-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left max-w-4xl mx-auto">
+    <div class="space-y-10">
+      <div>
+        <div class="text-2xl font-bold mb-2">GitHub Integration</div>
+        <div class="text-base mb-1">“Show me all PRs mentioning authentication”</div>
+        <div class="text-sm opacity-80">Gets live PR data with current status</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold mb-2">Slack Context</div>
+        <div class="text-base mb-1">“What did the team discuss about the database issue?”</div>
+        <div class="text-sm opacity-80">Pulls recent relevant conversations</div>
+      </div>
+    </div>
+    <div class="space-y-10">
+      <div>
+        <div class="text-2xl font-bold mb-2">Linear Workflow</div>
+        <div class="text-base mb-1">“Create a ticket for this bug and assign it to Sarah”</div>
+        <div class="text-sm opacity-80">Creates ticket automatically with code context</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold mb-2">Database Insights</div>
+        <div class="text-base mb-1">“How many users signed up this week?”</div>
+        <div class="text-sm opacity-80">Queries live production data safely</div>
+      </div>
+    </div>
+  </div>
 </div>
 
 ---
 
 # Tips for Maximum Productivity
 
-<div class="grid grid-cols-2 gap-6 text-left">
+<div class="mt-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left text-sm">
 
 <div class="space-y-4">
 
-- **Use `Cmd+K`** for quick actions
-- **Chat** with your entire codebase
-- **Multi-file edits** with AI
+### **Master Keyboard Shortcuts**
+- <code class="bg-white text-black rounded px-2 py-1 font-mono">Cmd+K</code> for quick actions
+- <code class="bg-white text-black rounded px-2 py-1 font-mono">Cmd+L</code> to chat with codebase  
+- Moving fast = thinking fast = building fast
+
+### **Leverage MCP Connections**
+- Pull live data from GitHub, Slack, Linear
+- Take actions without leaving your editor
+- Every context switch breaks your flow
 
 </div>
 
 <div class="space-y-4">
 
-- **Custom rules** and instructions
-- **Composer** for complex changes
+### **Custom Rules & Instructions**
+- Define your coding style once, use everywhere
+- Automate repetitive agent requests
+- Essential for consistent agent workflows
+
+### **Use the right model for the right task**
+- Use o3 or Grok 4 for planning
+- Use Claude 4 for execution
+- Use Gemini for reviewing
 
 </div>
 
+</div>
 </div>
 
 ---
@@ -247,10 +213,10 @@ Each becomes extra context your AI can act on
 
 <div class="flex flex-col items-center space-y-6">
 
-<img src="./assets/cursor_india.png" alt="Cursor Community" class="w-80 rounded-lg shadow-lg" />
+<img src="./assets/denver_logo.png" alt="Cursor Community" class="w-80 rounded-lg shadow-lg" />
 
 <div class="text-xl">
-Find local meetups: [cursor.com/community](https://cursor.com/community)
+  Find local meetups: <a href="https://cursor.com/community" class="text-blue-400 hover:underline">cursor.com/community</a>
 </div>
 
 </div>
@@ -263,11 +229,14 @@ Find local meetups: [cursor.com/community](https://cursor.com/community)
 
 ## Questions? Let's connect!
 
-<div class="space-y-4 text-lg">
+<div class="space-y-4 text-lg" >
 
-- **Host:** Cole McIntosh
-- **Community:** [cursor.com/community](https://cursor.com/community)
-- **Next Meetup:** Stay tuned!
+**X**: https://x.com/colesmcintosh
+<br>
+**GitHub**: https://github.com/colesmcintosh
+<br>
+**LinkedIn**: https://www.linkedin.com/in/colemcintosh/
+
 
 </div>
 
@@ -275,4 +244,12 @@ Find local meetups: [cursor.com/community](https://cursor.com/community)
 
 <div class="text-center mt-12">
 <small>© Cursor Community</small>
+</div>
+
+---
+
+<div class="flex flex-col items-center gap-6">
+  <h2 class="text-3xl font-bold mb-4">Access the Slides</h2>
+  <img src="./assets/slides_qr.png" alt="Cursor Logo" class="mx-auto w-48 h-48" />
+  <a href="https://colesmcintosh.github.io/cursor-slidev/" class="text-xl hover:underline text-blue-400">colesmcintosh.github.io/cursor-slidev</a>
 </div> 
