@@ -197,7 +197,7 @@ linkStyle 0,1,2,3,4,5 stroke:#fff,stroke-width:2px
 - Automate repetitive agent requests
 - Essential for consistent agent workflows
 
-### **Use the right model for the right task**
+### **Use Different Models**
 - Use o3 or Grok 4 for planning
 - Use Claude 4 for execution
 - Use Gemini for reviewing
