@@ -150,7 +150,7 @@ linkStyle 0,1,2,3,4,5 stroke:#fff,stroke-width:2px
       </div>
       <div>
         <div class="text-2xl font-bold mb-2">Slack Context</div>
-        <div class="text-base mb-1">“What did the team discuss about the database issue?”</div>
+        <div class="text-base mb-1">“What did the team say about the auth bug?”</div>
         <div class="text-sm opacity-80">Pulls recent relevant conversations</div>
       </div>
     </div>
