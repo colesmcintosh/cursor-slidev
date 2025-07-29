@@ -75,6 +75,29 @@ Focus on ideas, not syntax and boilerplate
 
 ---
 
+# Vibe Coding
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+<div class="space-y-6 text-left">
+
+- **Describe, don't type**  
+  Boss the AI around – it magically turns your chaotic thoughts into working code!
+- **Stay in flow**  
+  Get your zen on: Let cosmic vibes direct while AI tackles the tedious junk.
+- **Prototype instantly**  
+  Brainwave to browser in a flash – chit-chat tweaks, zero drama!
+- **Balance AI & expertise**  
+  Let AI handle the dirty work, then heroically swoop in to perfect it like a coding rockstar.
+
+</div>
+
+<img src="./assets/rick_rubin_meme.jpg" alt="Rick Rubin vibing while coding" class="w-full max-w-md rounded-lg shadow-lg" />
+
+</div>
+
+---
+
 # What is MCP?
 
 <div class="text-center mb-8">
@@ -167,6 +190,23 @@ linkStyle 0,1,2,3,4,5 stroke:#fff,stroke-width:2px
       </div>
     </div>
   </div>
+</div>
+
+---
+
+# Live Demos & $100 Cursor Credits Raffle
+
+<div class="space-y-4 text-left text-lg">
+
+- **Raffle App Speed Build (Kickoff Demo)**  
+  Watch a live, rapid-fire build of a raffle picker using Cursor.
+- **Who’s in the Raffle?**  
+  Every registered attendee—yes, even the waitlist—is automatically entered.
+- **Community Showcases**  
+  Three lightning demos from builders showing off what they’ve created with Cursor.
+- **Random Winner Selection**  
+  Our freshly minted app will choose one lucky name for the $100 credit prize.
+
 </div>
 
 ---
